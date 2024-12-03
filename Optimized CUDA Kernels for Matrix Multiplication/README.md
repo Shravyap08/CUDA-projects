@@ -1,18 +1,21 @@
 # Optimized CUDA kernels for Matrix Multiplication
 
-The goal of this project is to optimize CUDA kernels for matrix multiplication by checking the performance metrics. The project has the following goals 
+Overview
 
-1.Using a CPU 
+The goal of this project is to optimize CUDA kernels for matrix multiplication by evaluating performance metrics across different implementations. The project starts with a simple CPU-based implementation and progressively optimizes GPU-based approaches, exploring various CUDA techniques such as shared memory usage, loop unrolling, and leveraging cuBLAS.
 
-2.Naïve GPU approach 
+Project Objectives
 
-3.Shared memory 
+To implement and compare different methods for matrix multiplication:
 
-4.Loop unrolling 
+CPU Implementation: Baseline comparison.
 
-5.CuBLAS 
+Naïve GPU Approach: Initial CUDA implementation.
 
- 
+Shared Memory Optimization: Use shared memory to improve global memory latency.
 
+Loop Unrolling: Increase parallelism by unrolling loops.
+
+cuBLAS: Compare with NVIDIA's highly optimized matrix multiplication library.
 
 
