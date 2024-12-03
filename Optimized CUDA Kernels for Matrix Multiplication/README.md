@@ -6,16 +6,11 @@ The goal of this project is to optimize CUDA kernels for matrix multiplication b
 
 Project Objectives
 
-To implement and compare different methods for matrix multiplication:
+-To implement and compare different methods for matrix multiplication:
 
-CPU Implementation: Baseline comparison.
-
-Naïve GPU Approach: Initial CUDA implementation.
-
-Shared Memory Optimization: Use shared memory to improve global memory latency.
-
-Loop Unrolling: Increase parallelism by unrolling loops.
-
-cuBLAS: Compare with NVIDIA's highly optimized matrix multiplication library.
-
+  1. **CPU Implementation**: Baseline comparison.
+  2. **Naïve GPU Approach**: Initial CUDA implementation.
+  3. **Shared Memory Optimization**: Use shared memory to improve global memory latency.
+  4. **Loop Unrolling**: Increase parallelism by unrolling loops.
+  5. **cuBLAS**: Compare with NVIDIA's highly optimized matrix multiplication library.
 
