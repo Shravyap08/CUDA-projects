@@ -14,3 +14,18 @@ Project Objectives
   4. **Loop Unrolling**: Increase parallelism by unrolling loops.
   5. **cuBLAS**: Compare with NVIDIA's highly optimized matrix multiplication library.
 
+## Implementations Explained
+
+### 1. CPU Implementation
+
+This serves as a baseline to measure the performance gains obtained through GPU parallelization. The implementation is straightforward, using triple nested loops to compute matrix products. The algorithm has a time complexity of **O(N^3)** and is limited by the sequential nature of CPU processing.
+
+- **Language**: C++
+- **Libraries Used**: `<vector>`, `<chrono>` for timing.
+
+#### Key Features:
+- Implemented using nested loops.
+- Measures performance using the `std::chrono` library.
+- Uses input matrices initialized with constant values for validation.
+
+
