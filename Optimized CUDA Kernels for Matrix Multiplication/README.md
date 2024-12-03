@@ -2,15 +2,15 @@
 
 The goal of this project is to optimize CUDA kernels for matrix multiplication by checking the performance metrics. The project has the following goals 
 
-Using a CPU 
+1.Using a CPU 
 
-Naïve GPU approach 
+2.Naïve GPU approach 
 
-Shared memory 
+3.Shared memory 
 
-Loop unrolling 
+4.Loop unrolling 
 
-CuBLAS 
+5.CuBLAS 
 
  
 
