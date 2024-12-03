@@ -1,4 +1,5 @@
 # Optimized CUDA kernels for Matrix Multiplication
+Thanks for visiting my project!
 
 Overview
 
