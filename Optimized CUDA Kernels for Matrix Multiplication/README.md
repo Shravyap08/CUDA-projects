@@ -29,4 +29,14 @@ This serves as a baseline to measure the performance gains obtained through GPU 
 - Measures performance using the `std::chrono` library.
 - Uses input matrices initialized with constant values for validation.
 
+### 2. Naive GPU implementation
+The first GPU-based implementation uses a simple approach to parallelize matrix multiplication using CUDA. Each thread calculates a single element of the result matrix, which distributes the workload efficiently across the GPU cores. This implementation serves as a starting point for GPU optimization.
+
+- **Language**: CUDA C++
+- **Optimization level**: Basic
+#### Key Features:
+- Each element of the output matrix is computed by a single GPU thread.
+- Uses a grid of thread blocks to parallelize computations.
+- Significant speedup compared to the CPU, but limited by unoptimized global memory accesses.
+- Measures performance using CUDA events for timing.
 
