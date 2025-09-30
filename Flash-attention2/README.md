@@ -49,7 +49,7 @@ The easiest way to run this is in a GPU-enabled Google Colab environment.
 2.  Ensure you have a GPU runtime selected.
 3.  Run the cells sequentially to set up the models, check for correctness, and run the benchmark and plotting.
 
-## 🛠️ Profiling the Triton Kernel
+## Profiling the Triton Kernel
 
 The notebook contains cells to profile the custom kernel using NVIDIA's command-line tools. This allows for a deep dive into GPU performance metrics.
 
