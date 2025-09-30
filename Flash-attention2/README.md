@@ -11,7 +11,7 @@ The primary notebook (`Causal_flash_attn2.ipynb`) includes:
 * A performance benchmark comparing the two implementations across various sequence lengths.
 * Instructions for profiling the custom Triton kernel with NVIDIA's **Nsight Systems (nsys)** and **Nsight Compute (ncu)**.
 
-## 📊 Performance Results
+## Performance Results
 
 The Triton implementation shows a significant speedup, especially as the sequence length (`S`) increases. This is because the custom kernel minimizes slow reads/writes to HBM (GPU DRAM) by keeping intermediate results in the much faster on-chip SRAM.
 
@@ -35,7 +35,7 @@ The following results were generated on an NVIDIA A100 GPU:
 `![Speedup Plot](./images/speedup_plot.png)`
 
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 * A CUDA-enabled NVIDIA GPU (tested on A100).
